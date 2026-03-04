@@ -8,6 +8,7 @@
   font-optical-sizing: auto;
 }
 nav{
+    margin: 0 auto;
     max-width: 1600px;
     display: flex;
     justify-content: space-around;
@@ -64,17 +65,13 @@ nav .links a{
     max-width: 229px;
     padding: 8px;
     gap: 6px;
-    display: inline-flex;
+    margin: 0 auto;
+    display: flex;
     border: none;
     border-radius: 1000px;
     color: #30B868;
     background-color: #FFFFFF;
     margin-bottom: 16px;
-}
-.banner-content .badge .badge-icon{
-    align-items: center;
-    border: none;
-    border-radius: 8px;
 }
 .banner-content h1{
     font-size: 72px;
@@ -134,8 +131,9 @@ nav .links a{
 }
 
 #notes{
-    padding: 120px;
+    padding: 120px 120px 0px 120px;
     background-color: #FFFFFF;
+    /* background-color: aqua; */
 }
 .notes-container{
     margin: 0 auto;
@@ -167,7 +165,8 @@ nav .links a{
 .card-grid .card{
     width: 85%;
     max-width: 322px;
-    padding: 69.5px 24px;
+    height: 300px;
+    padding: 69.5px 24px 69.5px 24px;
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 
@@ -191,4 +190,65 @@ nav .links a{
     font-weight: 400;
     line-height: 20px;
     color: #627382;
+}
+
+#solution{
+    background-color: #FFFFFF;
+    /* background-color: lightgray; */
+    padding: 120px;
+}
+
+.solution-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.solution-image{
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+}
+.solution-content{
+    max-width: 700px;
+    gap: 40px;
+}
+.solution-content .sub-heading{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.solution-content h2{
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.solution-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.feature-list{
+    list-style: none;
+    padding: 0;
+}
+.feature-list li{
+    display: flex;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
 }
