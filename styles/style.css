@@ -42,7 +42,7 @@ nav .links a{
     color: #FFFFFF;
     cursor: pointer;
 }
-.btn-1:hover, .btn-2:hover{
+.btn-1:hover, .btn-2:hover, .btn-4:hover{
     background-color: #366e4d;
     box-shadow: 2px 2px 5px rgb(171, 168, 168);
 }
@@ -133,7 +133,6 @@ nav .links a{
 #notes{
     padding: 120px 120px 0px 120px;
     background-color: #FFFFFF;
-    /* background-color: aqua; */
 }
 .notes-container{
     margin: 0 auto;
@@ -250,5 +249,51 @@ nav .links a{
     font-weight: 500;
     line-height: 20px;
     color: #001931;
+    margin-bottom: 16px;
+}
+
+#early-access{
+    padding: 2px 120px 120px;
+    background-color: #FFFFFF;
+}
+.access-container{
+    margin: 0 auto;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    text-align: center;
+    /* gap: 24px; */
+}
+.access-container-heading{
+    width: 1280px;
+}
+.access-container-heading h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.access-container-heading p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.btn-4{
+    /* margin: 24px 0; */
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
     margin-bottom: 16px;
 }
